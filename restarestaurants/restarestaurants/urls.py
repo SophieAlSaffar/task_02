@@ -1,4 +1,4 @@
-"""task_02 URL Configuration
+"""restarestaurants URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.0/topics/http/urls/
@@ -15,9 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from restaurants.views import some_function
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('new/',some_function,name='hello-world'),
 ]
